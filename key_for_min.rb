@@ -4,4 +4,5 @@
 def key_for_min_value(name_hash)
 paper = {"letter" => -50, "legal" => -25, "cardstock" => -100}
 key_for_min_value(paper)
+#=> "cardstock"
 end
